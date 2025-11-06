@@ -1,9 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
 
-const Search = ({ setResult }) => {
+const Search = ({ setResult, setLoading, loading }) => {
   let [input, setInput] = useState("");
-  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   const submitData = async () => {
