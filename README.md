@@ -36,6 +36,7 @@ terms-conditions-summarizer/
 │
 ├── backend/
 │   ├── server.js          # Express server and AI summarization logic
+│   ├── route.js           # route logic, fetching api and getting response
 │   ├── .env               # API key configuration (GEMINI_API_KEY)
 │
 ├── frontend/

@@ -3,7 +3,7 @@ import { AlertCircle, CheckCircle, FileText, Search } from "lucide-react";
 const Card = ({ result, handleDelete, loading }) => {
   if (loading) {
     return (
-      <div className="px-5 flex justify-center flex-col w-full sm:w-[35em] mx-auto mb-10 h-auto mt-5 pt-5">
+      <div className="px-10 flex justify-center flex-col w-full sm:w-[35em] mx-auto mb-10 h-auto mt-5 pt-5">
         {Array.from({ length: 6 }).map((_, i) => (
           <div
             key={i}
@@ -46,8 +46,8 @@ const Card = ({ result, handleDelete, loading }) => {
   } else {
     return (
       !result && (
-        <div className="w-full min-h-80 max-h-max items-center flex flex-col text-black text-2xl font-bold py-40 ">
-          <div className="text-gray-400">
+        <div className="w-full min-h-80 max-h-max items-center flex flex-col text-black text-2xl font-bold py-40 px-10 ">
+          <div className="text-gray-400 px-10">
             Don't miss on term's and conditions ever again!
           </div>
         </div>

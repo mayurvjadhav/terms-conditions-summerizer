@@ -130,7 +130,7 @@ const Data = () => {
     },
   ];
   return (
-    <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 bg-white py-10 px-5">
+    <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 bg-white py-10 px-10">
       {dataArr.map((data, index) => (
         <div
           key={index}
